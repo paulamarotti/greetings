@@ -1,0 +1,5 @@
+print("Em que ano você nasceu?")
+ano = input()
+print("O ano de " + ano + " foi bem legal.")
+idade = 2021 - int(ano)
+print("Então você tem " + str(idade) + " anos.")
